@@ -1,0 +1,8 @@
+1 'gas-udetatehuseo
+5 CLS:VIDEO5:C=0
+10 IF BTN()==1 C=C+1
+20 LC0,2:?"ｶｳﾝﾄ:";C
+30 WAIT5
+40 IF BTN(32)==0 GOTO10
+50 CLS
+60 ?"MJ GETS script.google.com/macros/s/AKfycbybW3P9dyfOctb8wqcYlUESndJSCojHd2aQnKBQ6y-jaCRE3G7QCOqt1I3HkyETO7WV/exec?data=";C
